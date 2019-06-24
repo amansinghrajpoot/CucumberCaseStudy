@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 	
 	features = "features\\cart.feature",
-    glue = {"stepDefinitions"}
-	
+    glue = {"stepDefinitions"},
+	plugin = {"pretty", "json: target\\carttest.json"}
 )
 public class CartTestRunner {
 	
