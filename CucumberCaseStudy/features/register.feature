@@ -10,4 +10,4 @@ Feature: Register to TestMeApp
 
     Examples: 
       | username | fname | lname   | pwd         | cpwd        | gender | email         | mobile     | dob        | address         | sque | ans    | status |
-      | user609000 | Aman  | Rajpoot | Password123 | Password123 | Male   | abc@gmail.com | 9584762158 | 19/09/1997 | Minal residency |    0 | Bhopal | Pass   |
+      | user6095101 | Aman  | Rajpoot | Password123 | Password123 | Male   | abc@gmail.com | 9584762158 | 19/09/1997 | Minal residency |    0 | Bhopal | Pass   |
