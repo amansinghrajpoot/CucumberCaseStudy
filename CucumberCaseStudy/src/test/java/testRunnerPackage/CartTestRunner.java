@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 	
 	features = "features\\cart.feature",
     glue = {"stepDefinitions"},
-	plugin = {"pretty", "json: target\\carttest.json"}
+	plugin = {"pretty", "json:target\\carttest.json"}
 )
 public class CartTestRunner {
 	

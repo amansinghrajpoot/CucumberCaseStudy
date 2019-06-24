@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 	
 	features = "features\\register.feature",
-    glue = "stepDefinitions"
-	
+    glue = "stepDefinitions",
+    plugin = {"pretty", "json: target\\registertest.json"}
 )
 public class RegistrationRunner {
 

@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 	
 	features = "features\\login.feature",
-    glue = "stepDefinitions"
+    glue = "stepDefinitions",
+    plugin = {"pretty", "json:target\\login.json"}
 	
 )
 public class LoginRunner {

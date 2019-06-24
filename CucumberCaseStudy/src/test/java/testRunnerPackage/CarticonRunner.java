@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 	
 	features = "features\\carticon.feature",
-    glue = {"stepDefinitions"}
-	
+    glue = {"stepDefinitions"},
+	plugin = {"pretty", "json:target\\carticontest.json"}
 )
 public class CarticonRunner {
 
