@@ -12,7 +12,7 @@ import cucumber.api.java.en.*;
 import junit.framework.Assert;
 import testRunnerPackage.Repository;
 
-public class RigerterTesting {
+public class RegisterTesting {
 	
 	WebDriver driver;
 	@Given("User is on sign up page")
