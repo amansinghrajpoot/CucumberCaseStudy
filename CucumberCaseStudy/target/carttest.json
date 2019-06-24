@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-24T12:06:16.101Z",
+        "line": 13,
+        "name": "Adding product to cart",
+        "description": "",
+        "id": "testing-cart-product;adding-product-to-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10458310200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page for searching",
+            "match": {
+              "location": "CartSearchTest.user_is_on_home_page_for_searching()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2343796800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters four characters \"Head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Head\"",
+                  "offset": 28
+                }
+              ],
+              "location": "CartSearchTest.user_enters_four_characters(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 410435600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "press search button",
+            "match": {
+              "location": "CartSearchTest.press_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407979300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see accurate result",
+            "match": {
+              "location": "CartSearchTest.user_should_see_accurate_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CartTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-24T12:06:29.741Z",
+        "line": 14,
+        "name": "Adding product to cart",
+        "description": "",
+        "id": "testing-cart-product;adding-product-to-cart;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12467334200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page for searching",
+            "match": {
+              "location": "CartSearchTest.user_is_on_home_page_for_searching()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2697110200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters four characters \"Hand\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand\"",
+                  "offset": 28
+                }
+              ],
+              "location": "CartSearchTest.user_enters_four_characters(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 465253500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "press search button",
+            "match": {
+              "location": "CartSearchTest.press_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246985500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see accurate result",
+            "match": {
+              "location": "CartSearchTest.user_should_see_accurate_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CartTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Cart Product",
+    "description": "",
+    "id": "testing-cart-product",
+    "keyword": "Feature",
+    "uri": "file:features/cart.feature",
+    "tags": [
+      {
+        "name": "@CartTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

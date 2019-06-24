@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-24T12:04:31.146Z",
+        "line": 12,
+        "name": "Login Test",
+        "description": "",
+        "id": "login-test;login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11155176700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginTest.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 409619100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters data \"user60900\" and  \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user60900\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginTest.user_enters_data_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2012526800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login",
+            "match": {
+              "location": "LoginTest.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250489900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login verify the Pass in step",
+            "match": {
+              "location": "LoginTest.login_verify_the_Pass_in_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": [
+      {
+        "name": "@LoginTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

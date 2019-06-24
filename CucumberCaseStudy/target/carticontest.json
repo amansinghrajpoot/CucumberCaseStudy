@@ -1,0 +1,104 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-24T12:09:26.766Z",
+        "line": 5,
+        "name": "validating cart icon",
+        "description": "",
+        "id": "validate-cart-icon;validating-cart-icon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12933701300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page for searching.",
+            "match": {
+              "location": "CartIconTest.user_is_on_home_page_for_searching()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2282078800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the four characters \"Head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Head\"",
+                  "offset": 32
+                }
+              ],
+              "location": "CartIconTest.user_enters_four_characters(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567707500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "press the search button",
+            "match": {
+              "location": "CartIconTest.press_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865749200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user proceed for payment",
+            "match": {
+              "location": "CartIconTest.user_proceed_for_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 557877100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "cart icon should not be displayed",
+            "match": {
+              "location": "CartIconTest.cart_icon_should_not_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CartIconValidate"
+          }
+        ]
+      }
+    ],
+    "name": "Validate cart icon",
+    "description": "",
+    "id": "validate-cart-icon",
+    "keyword": "Feature",
+    "uri": "file:features/carticon.feature",
+    "tags": [
+      {
+        "name": "@CartIconValidate",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

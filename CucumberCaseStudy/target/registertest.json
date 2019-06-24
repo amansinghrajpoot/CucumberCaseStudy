@@ -1,0 +1,136 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-24T12:12:37.463Z",
+        "line": 13,
+        "name": "Register Test",
+        "description": "",
+        "id": "register-to-testmeapp;register-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10700994200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on sign up page",
+            "match": {
+              "location": "RegisterTesting.user_is_on_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1750330900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters data \"user609101\" and \"Aman\" and \"Rajpoot\" and \"Password123\" and \"Password123\" and \"Male\" and \"abc@gmail.com\" and \"9584762158\" and \"19/09/1997\" and \"Minal residency\" and 0 and \"Bhopal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user609101\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Aman\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Rajpoot\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"Male\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"abc@gmail.com\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"9584762158\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"19/09/1997\"",
+                  "offset": 143
+                },
+                {
+                  "val": "\"Minal residency\"",
+                  "offset": 160
+                },
+                {
+                  "val": "0",
+                  "offset": 182
+                },
+                {
+                  "val": "\"Bhopal\"",
+                  "offset": 188
+                }
+              ],
+              "location": "RegisterTesting.user_enters_data(String,String,String,String,String,String,String,String,String,String,Integer,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222512000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Signup",
+            "match": {
+              "location": "RegisterTesting.user_clicks_on_Signup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359248800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the Pass in step",
+            "match": {
+              "location": "RegisterTesting.i_verify_the_Pass_in_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegisterTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Register to TestMeApp",
+    "description": "",
+    "id": "register-to-testmeapp",
+    "keyword": "Feature",
+    "uri": "file:features/register.feature",
+    "tags": [
+      {
+        "name": "@RegisterTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
