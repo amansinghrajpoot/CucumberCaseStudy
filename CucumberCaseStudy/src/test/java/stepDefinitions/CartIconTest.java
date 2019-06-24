@@ -63,7 +63,7 @@ public class CartIconTest{
 	@Then("cart icon should not be displayed")
 	public void cart_icon_should_not_be_displayed() {
 		String strkey = "There are no items available in the cart!!!. Please select items to purchase!!";
-		Assert.assertFalse(driver.findElement(By.xpath("//h3[contains(.,'There are no items available in the cart!!!. Please select items to purchase!!')]")).getText().contains(strkey));
+		Assert.assertTrue(driver.findElement(By.xpath("//h3[contains(.,'There are no items available in the cart!!!. Please select items to purchase!!')]")).getText().contains(strkey));
 		driver.close();
 	}
 
